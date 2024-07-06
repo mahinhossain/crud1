@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Composer\\InstalledVersions' => $vendorDir . '/composer/InstalledVersions.php',
+    'Mahin\\Crud\\Console\\Commands\\CrudCommand' => $baseDir . '/src/Console/Commands/CrudCommand.php',
+    'Mahin\\Crud\\CrudProvider' => $baseDir . '/src/CrudProvider.php',
 );
